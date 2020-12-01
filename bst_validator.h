@@ -3,5 +3,7 @@
 
 bool bstValidator(int tree[], int tree_length);
 
+bool bstValidatorNew();
+
 
 #endif /* __BST_VALIDATOR_H__ */

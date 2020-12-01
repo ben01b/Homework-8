@@ -8,7 +8,6 @@ int main()
     int tree_idx = 0;
     getline(std::cin, tree_string);
     int size = tree_string.size();
-    std::cout << size << std::endl;
     for(int i = 0; i < size+1; i++)
     {
         std::string piece = "";
@@ -22,11 +21,11 @@ int main()
         tree_idx++;
     }
     
-    for(int i = 0; i < tree_idx; i++)
+    /*for(int i = 0; i < tree_idx; i++)
     {
         std::cout << tree[i] << " ";
     }
-    std::cout << std::endl;
+    std::cout << std::endl;*/
     
     bstValidator(tree, 5);
   /*int my_arr[8] = {10,5,15,2,7,11,25,1};

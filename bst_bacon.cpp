@@ -1,6 +1,19 @@
 #include "bst_bacon.h"
 #include <iostream>
 
+/*
+* Pseudocode
+* read in value to find 
+* loop until tree tree length 
+* if tree[i] == to find 
+* print depth and path then break
+* else if to find is less than tree[i]
+* increase depth by one and set i to 2i+1
+* store tree[i] in tree path
+* else if to find greater than tree[i]
+* increase depth by one and set i to 2i+2
+* store tree[i] in tree path
+*/
 void bstDepth(int tree[], int tree_length)
 {
   int to_find;
